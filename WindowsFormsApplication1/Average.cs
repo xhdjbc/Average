@@ -37,7 +37,7 @@ namespace WindowsFormsApplication1
                        * 
                        * Assignment #2, Program #2
                        * 
-                       * Date Last Modified: 
+                       * Date Last Modified: 10/19/2016
                        * 
                        */
 
@@ -51,6 +51,7 @@ namespace WindowsFormsApplication1
             double Average = (Firstnumber + Secondnumber + Thirdnumber + Fourthnumber + Fifthnumber) / 5;
 
             //Display all caculation to the user
+            lblResult.Text = string.Format("{0,10}{1,28}\n{2,10}{3,25}\n{4,10}{5,25}\n{6,10}{7,23}\n{8,10}{9,26}\n{10,10}{11,23}","Grade 1:", Firstnumber, "Grade 2:", Secondnumber, "Grade 3:", Thirdnumber, "Grade 4:", Fourthnumber, "Grade 5:", Fifthnumber, "Average:", Average);
         }
 
         private void txtThirdnumber_TextChanged(object sender, EventArgs e)
